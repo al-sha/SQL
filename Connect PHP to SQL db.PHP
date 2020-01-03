@@ -7,7 +7,7 @@
 <h1>Cars Search Results</h1>
 <?php
 
-  @ $db = new mysqli('localhost', 'DatabaseName','kkxner2d', 'DatabasePassword');
+  @ $db = new mysqli('localhost', 'DatabaseName','DatabasePassword');
 
   if (mysqli_connect_errno()) {
      echo 'Error: Could not connect to database.  Please try again later.';
